@@ -19,6 +19,7 @@ const search = () => {
                 document.getElementById("output").innerHTML =
                     "<b>" +
                     "Paragraph after Your Word Replace" + "<b>" + "<br />" + (userInput);
+
                 break;
             } else {
                 swal("No Word Found");
